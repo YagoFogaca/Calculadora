@@ -1,0 +1,76 @@
+.card-calculadora {
+  width: 90%;
+  height: 700px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ffffffe0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.btn-dark-mode,
+.tela,
+.btns-calculadora {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.btn-dark-mode {
+  height: 50px;
+}
+
+.tela {
+  height: 175px;
+  padding: 25px;
+  border: 3px solid rgb(0, 0, 0);
+  box-shadow: 5px 6px 0px #000;
+  background-color: #cfcfcfe5;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 45px;
+
+  /* A fonte na tela será 35px 500 wei e no resultado 45px */
+}
+
+.btns-calculadora {
+  height: 450px;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.btn-calculadora {
+  width: 23%;
+  height: 75px;
+  font-size: 30px;
+  font-weight: 700;
+  border: 3px solid rgb(0, 0, 0);
+  box-shadow: 5px 6px 0px #000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.ac {
+  color: rgb(7, 151, 151);
+}
+
+.op {
+  color: rgb(255, 102, 0);
+  font-size: 45px;
+}
+
+.material-symbols-outlined {
+  font-size: 45px;
+}
